@@ -29,7 +29,9 @@ Where name specifies a role which can be assigned to a user that will be used fo
 
 3. Now Your application should be able to add employees data in the db if and only if the authenticated user is ADMIN-
    
+   
     Ex-
+    
       {
         "firstName":"gl",
         "lastName":"postman",
@@ -39,7 +41,9 @@ Where name specifies a role which can be assigned to a user that will be used fo
 4.Your application should provide an endpoint to list all the employees stored in the database.
 
 Ex- 
+
 	Response Body-
+	
   [
       {
           "id": 1,
@@ -63,7 +67,10 @@ Ex-
   
 5. Your application should provide endpoint to fetch or get an employee record specifically based on the id of that employee-
       Ex- 	Url- http://localhost:8080/api/employees/3
+      
+      
       Response Body-
+      
       {
           "id": 3,
           "firstName": "postman",
@@ -94,6 +101,7 @@ Ex-
 
       Ex-
         Url- http://localhost:8080/api/employees/4
+	
         Response Body-
       "Deleted employee id - 4”
 
@@ -101,6 +109,8 @@ Ex-
 
       Ex-
         Url- http://localhost:8080/api/employees/search/gl
+	
+	
         Response Body-
       [
           {
@@ -114,6 +124,7 @@ Ex-
 9. Your application should be able to list all employee records sorted on their first name in either ascending order or descending order .
 
       Ex- 
+      
         Url- http://localhost:8080/api/employees/sort?order=”asc”  
              OR
         Url- http://localhost:8080/api/employees/sort?order=”desc”
