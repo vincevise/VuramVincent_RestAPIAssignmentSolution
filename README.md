@@ -28,6 +28,7 @@ Where name specifies a role which can be assigned to a user that will be used fo
     }
 
 3. Now Your application should be able to add employees data in the db if and only if the authenticated user is ADMIN-
+   
     Ex-
       {
         "firstName":"gl",
